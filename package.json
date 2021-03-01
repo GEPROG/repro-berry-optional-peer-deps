@@ -1,0 +1,16 @@
+{
+  "name": "bug-optional-peer-deps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anton Bracke <anton@ju60.de>",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "raphaelschwinger/mongoose#fix-import"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^6.9.3"
+  },
+  "scripts": {
+    "start": "yarn node src/"
+  }
+}
